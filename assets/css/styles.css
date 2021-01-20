@@ -58,7 +58,7 @@ ul {
 }
 
 a {
-    color: #fff;
+    color: #F62681;
     text-decoration: none;
 }
 
@@ -188,12 +188,13 @@ p {
 }
 
 hr {
-	width: 90px;
-    background: url(../img/wavylineblue.png);
-    height: 9px;
-	border: none;
+	width: 300px;
+    height: 20px;
 	margin-top:18px;
 	margin-bottom:25px;
+	border: none;
+    background: linear-gradient(45deg, rgba(246,38,129,0) 0%, rgba(246,38,129,0) 45%, rgba(246,38,129,1) 45%, rgba(246,38,129,1) 55%, rgba(246,38,129,0) 52%, rgba(246,38,129,0) 100%);
+    background-size: 20px 20px;
 }
 
 #grid-gallery figcaption hr{
@@ -282,14 +283,11 @@ hr {
 #title_hr {
 	border: none;
     margin: 1.8em auto 2.9em;
-    width: 90px;
-    background: url(../img/wavylineblue.png);
-    height: 9px;
 }
 
 .landing-text-pos {
 	position: absolute;
-	top: 35%;
+	top: 25%;
 	width: 100%;
 }
 
@@ -417,16 +415,16 @@ body{
 	position:relative;
 }
 .navbar-default .navbar-nav > li.active > a{
-	color: #0c59d8;
+	color: #F62681;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background: none;
-	color: #0c59d8;
+	color: #F62681;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: transparent;
-	color: #0c59d8;
+	color: #F62681;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -491,7 +489,7 @@ h1.arrow {
 }
 
 .features h2 {
-	color: #0c59d8;
+	color: #F62681;
 	font-size: 1.2em;
     font-weight: 600;
 	letter-spacing: 0.2em;
@@ -668,7 +666,7 @@ blockquote p{
 }
 
 .team h2 {
-	color: #0c59d8;
+	color: #F62681;
     font-size: 1.2em;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -720,7 +718,7 @@ blockquote p{
 }
 
 .sp-dsc blockquote {
-	border-left-color: #0c59d8;
+	border-left-color: #F62681;
 }
 
 div.avatar {
@@ -820,7 +818,7 @@ div.avatar {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 0.8em;
-	color: #0c59d8;
+	color: #F62681;
 }
 
 .sp-dsc {
@@ -846,7 +844,7 @@ div.avatar {
 /*********************/
 
 .btn-effect {
-	background: none repeat scroll 0 0 #0c59d8;
+	background: none repeat scroll 0 0 #F62681;
 	border: medium none;
 	color: #fff;
 	letter-spacing: 0.2em;
@@ -885,7 +883,7 @@ div.avatar {
 }
 
 #get_directions.btn-effect {
-	background: none repeat scroll 0 0 #0c59d8;
+	background: none repeat scroll 0 0 #F62681;
     border: medium none;
     color: #fff;
     cursor: pointer;
@@ -1086,10 +1084,10 @@ div.avatar {
 }
 
 .d-sch:hover{
-	color: #0c59d8;
+	color: #F62681;
 }
 .fb:hover{
-	color: #0c59d8;
+	color: #F62681;
 }
 
 .accordion .item.open .e-title {
@@ -1181,7 +1179,7 @@ div.avatar {
 .nl-field-toggle, .nl-form input, .nl-form select {
 	line-height: inherit;
 	display: inline-block;
-	color: #0c59d8;
+	color: #F62681;
 	cursor: pointer;
 	border-bottom: 1px dashed #fff;
 }
@@ -1206,7 +1204,7 @@ div.avatar {
 }
 
 .nl-form .nl-submit {
-	 background: none repeat scroll 0 0 #0c59d8;
+	 background: none repeat scroll 0 0 #F62681;
     color: #fff;
     cursor: pointer;
     font-size: 0.4em;
@@ -1352,11 +1350,6 @@ div.avatar {
 	color: #fff;
 }
 
-a {
-	color: #212639;
-	text-decoration: none;
-}
-
 .tc {
 
 	margin-bottom: 6%;
@@ -1424,7 +1417,7 @@ a {
 .md-content h3 {
 	margin: 0;
 	text-align: center;
-	color: #0c59d8;
+	color: #F62681;
     font-size: 1.3em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -1463,7 +1456,7 @@ a {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-	color: #0c59d8;
+	color: #F62681;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -1534,7 +1527,7 @@ a {
 }
 
 .planContainer .title h2.bestPlanTitle {
-	background: #0c59d8;
+	background: #F62681;
 	color: #212639;
 }
 
@@ -1552,7 +1545,7 @@ a {
 }
 
 .planContainer .price p.bestPlanPrice {
-	background: #0c59d8;
+	background: #F62681;
 	color: #212639;
 }
 
@@ -1580,7 +1573,7 @@ a {
 
 .planContainer .button a.bestPlanButton {
 	color: #212639;
-	background: #0c59d8;
+	background: #F62681;
 
 }
 
@@ -1905,7 +1898,7 @@ ul.planContainer {
 
 	background:none;
 	border: none;
-	color: #0c59d8;
+	color: #F62681;
 
 }
 
@@ -1913,7 +1906,7 @@ ul.planContainer {
 	outline:0 none;
 	border:0 none;
 	background:none;
-	color: #0c59d8;
+	color: #F62681;
 }
 
 .subscribe button span {
@@ -2061,7 +2054,7 @@ ul.planContainer {
 }
 
 .contact-details h2 span {
-	color: #0c59d8;
+	color: #F62681;
     display: block;
     font-size: 0.8em;
     font-weight: 600;
